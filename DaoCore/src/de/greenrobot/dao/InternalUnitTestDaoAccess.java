@@ -16,10 +16,13 @@
 
 package de.greenrobot.dao;
 
-import java.lang.reflect.Constructor;
 
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
+
+import net.sqlcipher.database.SQLiteDatabase;
+
+import java.lang.reflect.Constructor;
+
 import de.greenrobot.dao.identityscope.IdentityScope;
 import de.greenrobot.dao.internal.DaoConfig;
 

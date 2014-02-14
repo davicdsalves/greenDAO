@@ -15,6 +15,12 @@
  */
 package de.greenrobot.dao.async;
 
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
+
+import net.sqlcipher.database.SQLiteDatabase;
+
 import java.util.ArrayList;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.Callable;
@@ -23,10 +29,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
-import android.database.sqlite.SQLiteDatabase;
-import android.os.Handler;
-import android.os.Looper;
-import android.os.Message;
 import de.greenrobot.dao.DaoException;
 import de.greenrobot.dao.DaoLog;
 import de.greenrobot.dao.query.Query;

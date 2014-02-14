@@ -16,17 +16,19 @@
 
 package de.greenrobot.dao;
 
+import android.database.CrossProcessCursor;
+import android.database.Cursor;
+import android.database.CursorWindow;
+
+import net.sqlcipher.DatabaseUtils;
+import net.sqlcipher.database.SQLiteDatabase;
+import net.sqlcipher.database.SQLiteStatement;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
-import android.database.CrossProcessCursor;
-import android.database.Cursor;
-import android.database.CursorWindow;
-import android.database.DatabaseUtils;
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteStatement;
 import de.greenrobot.dao.identityscope.IdentityScope;
 import de.greenrobot.dao.identityscope.IdentityScopeLong;
 import de.greenrobot.dao.internal.DaoConfig;

@@ -15,8 +15,9 @@
  */
 package de.greenrobot.dao.query;
 
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteStatement;
+import net.sqlcipher.database.SQLiteDatabase;
+import net.sqlcipher.database.SQLiteStatement;
+
 import de.greenrobot.dao.AbstractDao;
 
 /**
